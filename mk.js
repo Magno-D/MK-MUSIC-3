@@ -276,7 +276,7 @@ bot.on("ready", function() {
 	console.log("ready");
 	
 	bot.user.setStatus("dnd");
-	bot.user.setGame("To Get Help | 3help");
+	bot.user.setGame("To Get Help | Shelp");
 });
 bot.on('message', message => {
 if (message.content === prefix +'help') {
